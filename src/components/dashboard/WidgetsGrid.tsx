@@ -10,7 +10,7 @@ export const WidgetsGrid = () => {
     <div className="flex flex-wrap items-center justify-center">
       <SimpleWidget
         href="/dashboard/counter"
-        label={isCart.toString()}
+        label={`${isCart}`}
         subTitle="Ay la llevamos"
         title="Contador" 
         icon={<IoCafeOutline size={30} className="text-blue-600" />}
