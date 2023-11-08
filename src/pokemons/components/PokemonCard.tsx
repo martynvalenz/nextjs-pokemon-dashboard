@@ -21,7 +21,7 @@ export const PokemonCard = ({pokemon}:Props) => {
           />
           <p className="pt-2 text-lg font-semibold text-gray-50 capitalize">{pokemon.name}</p>
           <div className="mt-5">
-            <Link href={`/dashboard/pokemon/${pokemon.id}`} className="border rounded-full py-2 px-4 text-xs font-semibold text-gray-100"> Más información </Link>
+            <Link href={`/dashboard/pokemons/${pokemon.name}`} className="border rounded-full py-2 px-4 text-xs font-semibold text-gray-100"> Más información </Link>
           </div>
         </div>
         <Link href="/account/campaigns" className="px-4 py-2 hover:bg-gray-100 flex items-center">
